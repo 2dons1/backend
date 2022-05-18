@@ -104,10 +104,10 @@ export class AppService {
   ];
 
   private restaurants_reviews = [
-    {id: 1, user_id: "Korisnik1", review_text: "Ovo je tekst recenzije1", review_title: "Naslov recenizje"},
-    {id: 2, user_id: "Korisnik2", review_text: "Ovo je tekst recenzije2", review_title: "Naslov recenizje"},
-    {id: 3, user_id: "Korisnik3", review_text: "Ovo je tekst recenzije3", review_title: "Naslov recenizje"},
-    {id: 4, user_id: "Korisnik4", review_text: "Ovo je tekst recenzije4", review_title: "Naslov recenizje"},
+    {id: 1, user_id: 2, review_text: "Ovo je tekst recenzije1", review_title: "Naslov recenizje"},
+    {id: 2, user_id: 2, review_text: "Ovo je tekst recenzije2", review_title: "Naslov recenizje"},
+    {id: 3, user_id: 3, review_text: "Ovo je tekst recenzije3", review_title: "Naslov recenizje"},
+    {id: 4, user_id: 4, review_text: "Ovo je tekst recenzije4", review_title: "Naslov recenizje"},
   ];
 
   getRestaurants(): {} {
@@ -164,7 +164,7 @@ export class AppService {
           ime: 'Dorian', 
           prezime: 'Doncevic',
           email: 'dorian.doncevic@gmail.com',
-          uloga: 'gost',
+          uloga: 'ugostitelj',
         }
       }
     }
